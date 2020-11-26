@@ -1,5 +1,5 @@
 # Youtube Front End clone made with React JS
-H! This a Youtube clone that i made using React JS, which allows you to login with your Gmail account using Firebase, search videos and watch them, as if it were the actual website.
+H! This a Youtube clone that i made using React JS, which allows you to login with your Gmail account using Firebase, search videos and watch them, as if it were the actual website.  
 You can visit the website clicking [here!](https://react-clone-295320.web.app/)
 ## Features
 * Watch videos and Search them, including it´s likes, dislikes, channel and comments.
