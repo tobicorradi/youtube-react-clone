@@ -5,7 +5,7 @@ You can visit the website clicking [here!](https://react-clone-295320.web.app/)
 * Watch videos and Search them, including it´s likes, dislikes, channel and comments.
 * Log in using Gmail with Google Firebase.
 * Show skeletons while the components are beign loaded.
-## Libraries used
+## Libraries/Technologies used
 * React JS
 * Youtube API V3
 * Axios
