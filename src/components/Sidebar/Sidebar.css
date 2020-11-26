@@ -1,0 +1,31 @@
+.sidebar {
+  background-color: var(--main-white);
+  color: rgb(96, 89, 81);
+  fill: rgb(96, 89, 81);
+  height: 100%;
+  position: absolute;
+  z-index: 2;
+  left: -228px;
+}
+@media (min-width: 992px) {
+  .sidebar {
+    flex: 0.13;
+    max-width: 863px;
+    position: sticky;
+    top: 56px;
+    display: block;
+  }
+}
+.sidebar__separator {
+  border: 0;
+  height: 0.5px;
+  background-color: var(--separator-color);
+  margin: 12px 0px;
+}
+.sidebar__blockTitle {
+  text-transform: uppercase;
+  font-size: 14px;
+  padding: 0 25px;
+  margin-top: 18px;
+  margin-bottom: 8px;
+}

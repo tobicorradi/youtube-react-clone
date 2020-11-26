@@ -1,0 +1,115 @@
+/* .videoResult {
+  margin-bottom: 16px;
+  width: 100%;
+  max-width: 320px;
+} */
+.videoResult {
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 12px;
+}
+/* .videoResult__thumbnail {
+  max-width: 100%;
+  height: 179px;
+  flex: 1 1;
+  position: relative;
+} */
+.videoResult__thumbnail {
+  max-width: 100%;
+  height: 122px;
+  margin-bottom: 13px;
+  margin-right: 15px;
+  background-position: center;
+  background-size: cover;
+  flex: 1 1;
+}
+.videoResult__body {
+  flex: 1;
+}
+.videoResult__title {
+  margin-top: 10px;
+  font-size: 18px;
+  font-weight: 400;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.videoResult__channel {
+  display: block;
+  margin: 5px 0 31px 0;
+}
+.videoCard__numbers,
+.videoResult__channel,
+.videoResult__description {
+  font-size: 13px;
+  color: #606060;
+}
+.videoResult__description {
+  margin-bottom: 10px;
+  display: none;
+}
+.videoSidebar .videoResult__thumbnail {
+  background-size: cover;
+  background-position: center;
+  height: 78px;
+  max-width: 227px;
+  margin-bottom: 0;
+}
+.videoSidebar .videoResult {
+  max-width: 600px;
+  margin: 0 auto;
+  margin-bottom: 8px;
+}
+.videoSidebar .videoResult__title {
+  font-size: 15px;
+}
+.videoSidebar .videoResult__channel{
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .videoResult {
+    width: unset;
+    display: flex;
+    flex-direction: row;
+    max-width: unset;
+    margin-bottom: 16px;
+  }
+  .videoSidebar .videoResult__thumbnail {
+    margin-bottom: 0;
+  }
+  .videoSidebar .videoResult {
+    max-width: unset;
+    margin: 0 0 10px 0;
+  }
+  .videoResult__description {
+    display: block;
+  }
+  .videoResult__thumbnail {
+    margin-right: 16px;
+  }
+}
+@media (min-width: 992px) {
+  .videoResult__thumbnail {
+    max-width: 321px;
+    min-width: 240px;
+    height: 180px;
+    flex: 1 1;
+    position: relative;
+    margin-right: 16px;
+  }
+  .videoSidebar .videoResult__thumbnail {
+    background-size: cover;
+    background-position: center;
+    height: 103px;
+    width: 249px;
+    min-width: unset;
+    max-width: unset;
+    margin-bottom: 0px;
+  }
+  .videoSidebar .videoResult__title {
+    font-size: 16px;
+    font-weight: 500;
+  }
+}

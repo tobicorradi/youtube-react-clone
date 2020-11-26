@@ -1,0 +1,10 @@
+.videoCard__live {
+    font-size: 12px;
+    display: inline-block;
+    margin-top: 7px;
+    text-transform: uppercase;
+    border: 1px solid rgb(182, 0, 0);
+    color: rgb(182, 0, 0);
+    padding: 2px 5px;
+    font-weight: bold;
+  }

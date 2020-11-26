@@ -1,0 +1,82 @@
+.videoCard {
+  max-width: 320px;
+  margin-bottom: 40px;
+  position: relative;
+  cursor: pointer;
+}
+.videoCard__thumbnail {
+  width: 360px;
+  height: 166px;
+  background-position: center center;
+  background-size: cover;
+  max-width: 100%;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .videoCard {
+    margin-right: 20px;
+    max-width: 360px;
+  }
+  .videoCard__thumbnail {
+    height: 200px;
+    width: 480px;
+  }
+}
+.videoCard > img {
+  max-width: 100%;
+}
+.videoCard__duration {
+  font-size: 13px;
+  color: white;
+  background: black;
+  padding: 1px 4px;
+  position: absolute;
+  bottom: 7px;
+  right: 7px;
+}
+.videoCard__body {
+  display: flex;
+  margin-top: 10px;
+}
+.videoCard__title {
+  font-size: 16px;
+  margin-bottom: 5px;
+  color: #030303;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+.videoCard__avatar {
+  margin-right: 12px;
+}
+.videoCard__info {
+  font-size: 14px;
+  margin-right: 20px;
+}
+.videoCard__author,
+.videoCard__views,
+.videoCard__timestamp {
+  color: #606060;
+}
+.videoCard__views::after {
+  content: "•";
+  margin: 0 7px;
+}
+.videoCard__settingsIcon {
+  fill: #605951 !important;
+  position: absolute;
+  right: 0;
+}
+
+.videoCard__settingsIcon {
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.2s opacity ease-in-out;
+}
+
+.videoCard:hover .videoCard__settingsIcon {
+  opacity: 1;
+  visibility: visible;
+  transition: 0.2s opacity ease-in-out;
+}

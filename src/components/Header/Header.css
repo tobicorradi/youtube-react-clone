@@ -1,0 +1,112 @@
+.header {
+  background-color: var(--main-white);
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+.header__logo {
+  width: 80px;
+  margin-left: 10px;
+}
+.header__profileIcons,
+.header__searchBox form {
+  display: flex;
+  align-items: center;
+}
+.header__profileIcons > * {
+  margin: 0 10px;
+}
+.header__searchBox {
+  display: block;
+  position: absolute;
+  background: white;
+  width: 100%;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 10px;
+}
+.header__searchBox input,
+.header__searchBox button {
+  height: 34px;
+  border: 1px solid var(--input-border);
+}
+.header__searchBox svg {
+  font-size: 1.4em;
+}
+.header__searchBox form {
+  justify-content: center;
+}
+.header__searchBox button[type="submit"] {
+  width: 65px;
+}
+.header__searchBox input[type="text"] {
+  width: 100%;
+  border-right: 0;
+  padding: 5px 9px;
+  border-radius: 2px 0 0 2px;
+  font-size: 16px;
+  outline-color: rgba(6, 95, 212, 0.3);
+}
+.header__desktopIcons.MuiSvgIcon-root {
+  display: none;
+}
+.header__mobileIcons.MuiSvgIcon-root {
+  display: block;
+}
+.header__loginButton {
+  padding: 7px 13px !important;
+  border-radius: 1px !important;
+}
+.header__loginModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__loginContent {
+  background: var(--main-white);
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__avatar {
+  cursor: pointer;
+}
+.header__closeSearchBox {
+  margin-right: 15px;
+}
+.header button[type="submit"] {
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  .header {
+    padding: 0 25px;
+  }
+  .header__desktopIcons.MuiSvgIcon-root {
+    display: block;
+  }
+  .header__closeSearchBox {
+    display: none !important;
+  }
+  .header__mobileIcons.MuiSvgIcon-root {
+    display: none;
+  }
+  .header__logo {
+    margin-left: 25px;
+  }
+  .header__searchBox {
+    display: block !important;
+    position: static;
+    flex: 0.8;
+    text-align: center;
+    max-width: 648px;
+  }
+}

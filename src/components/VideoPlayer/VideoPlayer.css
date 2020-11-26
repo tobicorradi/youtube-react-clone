@@ -1,0 +1,16 @@
+.singleVideo__videoPlayer {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+.singleVideo__video {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  border: 0;
+  width: 100%;
+  height: 100%;
+}

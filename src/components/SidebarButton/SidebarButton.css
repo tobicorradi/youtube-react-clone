@@ -1,0 +1,23 @@
+.sidebar__button {
+  display: block;
+  width: 100%;
+  padding: 0 25px;
+}
+.usermenu .sidebar__button{
+  padding: 0 15px;
+}
+.sidebar__button:hover{
+    background-color: var(--sidebar-button-hover);
+}
+.sidebar__wrapper {
+  display: flex;
+  align-items: center;
+  padding: 11px 0;
+}
+.sidebar__button .sidebar__title {
+  margin-left: 24px;
+  font-size: 14px;
+}
+.sidebar__wrapper .sidebar__icon {
+    font-size: 22px;
+}

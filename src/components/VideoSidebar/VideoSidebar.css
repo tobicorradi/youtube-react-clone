@@ -1,0 +1,9 @@
+.videoSidebar {
+  padding: 0 10px;
+}
+@media (min-width: 992px) {
+  .videoSidebar {
+   flex: .2;
+   padding: 0 20px;
+  }
+}

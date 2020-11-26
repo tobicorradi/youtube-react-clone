@@ -1,0 +1,21 @@
+.videoGallery {
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+.videoGallery__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 10px;
+  margin-top: 25px;
+  justify-content: center;
+}
+@media (min-width: 768px) {
+  .videoGallery {
+    flex: 0.87;
+  }
+  .videoGallery__wrapper{
+      justify-content: start;
+      padding: 0 25px;
+  }
+}
