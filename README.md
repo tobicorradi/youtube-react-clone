@@ -7,6 +7,7 @@ __You can visit the website clicking [here!](https://react-clone-295320.web.app/
 * Show skeletons while the components are beign loaded.
 ## Libraries/Technologies used
 * React JS
+* React Router
 * Youtube API V3
 * Axios
 * Material UI
