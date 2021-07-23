@@ -4,4 +4,4 @@ export const numberWithCommas = (num) => {
   }
 };
 
-export const key = "AIzaSyDWgN6WIIb2CjU6T9S9QveuezdqCd2wji4";
+export const key = process.env.REACT_APP_API_KEY;
