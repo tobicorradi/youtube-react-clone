@@ -12,6 +12,12 @@ __You can visit the website clicking [here!](https://react-clone-295320.web.app/
 * Axios
 * Material UI
 * Firebase
+## Installation
+* Clone the repo.
+* Execute *npm install* command
+* Edit the *.env.example* file with your The Movie DB api key.
+* Execute *npm start*
+* Done :)
 ## Images
 ![alt text](https://www.corraditobias.com.ar/img/work/08/01.jpg)
 ![alt text](https://www.corraditobias.com.ar/img/work/08/02.jpg)
